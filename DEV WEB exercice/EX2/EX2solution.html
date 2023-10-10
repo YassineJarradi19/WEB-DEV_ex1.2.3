@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ex1</title>
+    <style>
+      table {
+        margin: 0 auto;
+      }
+      table td:nth-child(1) {
+        width: 15%; /* Adjust the width as needed */
+      }
+      table td:nth-child(3) {
+        width: 30%; /* Adjust the width as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-size: 15px; margin-bottom: 0px; text-align: center">
+      Fusion des cellules dans un tableau
+    </h1>
+    <table style="width: 90%" border="4">
+      <tr>
+        <th></th>
+        <th>colonne 1</th>
+        <th>colonne 2</th>
+        <th>colonne 3</th>
+      </tr>
+      <tr>
+        <td rowspan="3">ABCDEF</td>
+        <td>A</td>
+        <td colspan="2">B</td>
+      </tr>
+      <tr>
+        <td rowspan="2">C</td>
+        <td>D</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>F</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td rowspan="3">...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+      </tr>
+      <tr>
+        <td colspan="4">...</td>
+      </tr>
+    </table>
+  </body>
+</html>

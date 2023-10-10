@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EX3</title>
+    <style>
+      .date-info {
+        display: flex;
+      }
+      .date-numbers{
+        display: flex;
+      }
+      .container{
+        justify-content: center;
+        border: 1px solid #000000;
+
+        align-items: center;
+        background-color: #fff;
+        max-width: 180px;
+        margin: 50px auto;
+        padding: 1px;
+        background-color: rgb(173, 171, 171);
+        box-sizing: border-box;
+      }
+      .adresse{
+        border: 1px solid #000000;
+
+        text-align: center;
+      }
+      .date-text{
+        border: 1px solid #000000;
+
+        text-align: center;
+      }
+      .date-info{
+        text-align: center;
+        border: 1px solid #000000;
+
+      }
+      .date-numbers{
+        border: 1px solid #000000;
+        
+      }
+      .button{
+        border: 1px solid #000000;
+        padding-left: 60px;
+      }
+      #text{
+        width: 170px;
+        height: 50px;
+      }
+      .day{
+        display: flex;
+        border: 1px solid #000000;
+        width: 33%;
+       
+        
+      }
+      .month{
+        display: flex;
+        border: 1px solid #000000;
+        width: 33%;
+      }
+      .year{
+        display: flex;
+        border: 1px solid #000000;
+        width: 33%;
+      }
+      .day-num{
+        display: flex;
+        border: 1px solid #000000;
+        width: 33%;
+        justify-content: center;
+
+      }
+      .month-num{
+        display: flex;
+        border: 1px solid #000000;
+        width: 33%;
+        justify-content: center;
+
+      }
+      .year-num{
+        display: flex;
+        border: 1px solid #000000;
+        width: 33%;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="adresse">Adresse</div>
+      <div class="text-area-adresse">
+        <textarea name="comment" id="text" placeholder=""> </textarea>
+      </div>
+      <div class="date-text">Date de naissance</div>
+      <div class="date-info">
+        <div class="day">Jour</div>
+        <div class="month">Month</div>
+        <div class="year">Année</div>
+      </div>
+      <div class="date-numbers">
+        <div class="day-num">
+         
+            <select name="days" id="days">
+              <option value="days">1</option>
+              <option value="days">2</option>
+              <option value="days">3</option>
+              <option value="days">4</option>
+              <option value="days">5</option>
+              <option value="days">6</option>
+              <option value="days">7</option>
+              <option value="days">8</option>
+              <option value="days">9</option>
+              <option value="days">10</option>
+              <option value="days">11</option>
+              <option value="days">12</option>
+              <option value="days">13</option>
+              <option value="days">14</option>
+              <option value="days">15</option>
+              <option value="days">16</option>
+              <option value="days">17</option>
+              <option value="days">18</option>
+              <option value="days">19</option>
+              <option value="days">20</option>
+              <option value="days">21</option>
+              <option value="days">22</option>
+              <option value="days">23</option>
+              <option value="days">24</option>
+              <option value="days">25</option>
+              <option value="days">26</option>
+              <option value="days">27</option>
+              <option value="days">28</option>
+              <option value="days">29</option>
+              <option value="days">30</option>
+              <option value="days">31</option>
+            </select>
+          </select>
+        </div>
+        <div class="month-num">
+            <select name="role" id="role">
+                <option value="month">1</option>
+                <option value="month">2</option>
+                <option value="month">3</option>
+                <option value="month">4</option>
+                <option value="month">5</option>
+                <option value="month">6</option>
+                <option value="month">7</option>
+                <option value="month">8</option>
+                <option value="month">9</option>
+                <option value="month">10</option>
+                <option value="month">11</option>
+                <option value="month">12</option>
+              </select>
+        </div>
+        <div class="year-num">
+          <select name="role" id="role">
+            <option value="year">1999</option>
+            <option value="year">2000</option>
+            <option value="year">2001</option>
+            <option value="year">2002</option>
+            <option value="year">2003</option>
+            <option value="year">2004</option>
+            <option value="year">2005</option>
+            <option value="year">2006</option>
+
+            
+          </select>
+        </div>
+      </div>
+      <div class="button-space">
+        <div class="button">
+            <button>Valider</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

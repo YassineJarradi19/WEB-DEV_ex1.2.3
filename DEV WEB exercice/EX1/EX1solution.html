@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Movement</title>
+    <style>
+      .container {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+      }
+      .image {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: transform 0.5s ease-in-out;
+      }
+      .image:active {
+        transform: translateX(250%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Click the Images to Move Them</h1>
+    <div class="container">
+      <img class="image" src="cup.png" alt="Image 1" />
+    </div>
+    <div class="container">
+      <img class="image" src="medaille.png" alt="Image 2" />
+    </div>
+    <div class="container">
+      <img class="image" src="medaille inverse.png" alt="Image 3" />
+    </div>
+  </body>
+</html>
